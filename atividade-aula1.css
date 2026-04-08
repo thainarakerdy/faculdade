@@ -1,0 +1,24 @@
+body {
+    background-color: azure;
+    color: cadetblue;
+    text-align: center;
+    text-decoration: dotted;
+    height: 100%;
+    font-family: serif; 
+
+}
+p {
+    text-align: center;
+}
+ul {
+  list-style-type: none; /* Tira as bolinhas */
+  padding: 0;            /* Tira o recuo da esquerda */
+  display: flex;
+  flex-direction: column; /* Coloca uma embaixo da outra */
+  align-items: center;    /* Centraliza na horizontal */
+  text-align: center;     /* Garante que o texto dentro também centralize */
+}
+button{
+    background-color: cadetblue;
+    color: aliceblue;
+}
