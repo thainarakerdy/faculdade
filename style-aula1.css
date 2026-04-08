@@ -1,0 +1,32 @@
+.minhadiv {
+    width: 100%;
+    height: 600px;
+    background-color: cadetblue;
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 10px;
+    text-transform: uppercase;
+    position: absolute;
+    margin: 15px;
+}
+.bloco {
+    width: 100%;
+    height: 35px;
+    background-color: rgb(12, 135, 159);
+    text-align: center;
+}
+@media(min-width: 480px) {
+    .minhadiv{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(min-width: 768px) {
+    .minhadiv{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media(min-width: 1280px) {
+    .minhadiv{
+        grid-template-columns: repeat(6, 1fr);
+    }
+}

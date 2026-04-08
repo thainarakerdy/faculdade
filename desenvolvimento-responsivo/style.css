@@ -1,0 +1,12 @@
+.galeria-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 colunas iguais */
+  gap: 20px; /* Espaço entre as fotos */
+}
+.card-flex {
+  display: flex;
+  flex-direction: column; /* Coloca os itens um embaixo do outro */
+  align-items: center;    /* Centraliza na horizontal */
+  justify-content: center; /* Centraliza na vertical */
+  padding: 15px;
+  border: 1px solid #bf3b3b;}
