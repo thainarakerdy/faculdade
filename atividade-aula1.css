@@ -1,24 +1,38 @@
 body {
     background-color: azure;
     color: cadetblue;
-    text-align: center;
+    text-align: left;
     text-decoration: dotted;
     height: 100%;
     font-family: serif; 
 
 }
 p {
-    text-align: center;
+    text-align: left;
 }
 ul {
   list-style-type: none; /* Tira as bolinhas */
   padding: 0;            /* Tira o recuo da esquerda */
   display: flex;
   flex-direction: column; /* Coloca uma embaixo da outra */
-  align-items: center;    /* Centraliza na horizontal */
-  text-align: center;     /* Garante que o texto dentro também centralize */
+  align-items: left;    /* Centraliza  */
+  text-align: left;     /* Garante que o texto dentro também centralize */
 }
 button{
+    background-color: rgb(68, 116, 118);
+    color: aliceblue;
+    border: 1px;
+    border-radius: 2%;
+}
+header{
+    background-color: cadetblue;
+    color: aliceblue;
+    border: 1px;
+    border-color: rgb(68, 116, 118);
+    text-align: center;
+}
+footer{
+    text-align: center;
     background-color: cadetblue;
     color: aliceblue;
 }
